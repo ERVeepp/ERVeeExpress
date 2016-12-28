@@ -11,6 +11,7 @@ var my = require('./routes/my');
 
 var app = express();
 
+
 //解决前后端跨域
 var cors = require('cors');
 app.use(cors({
