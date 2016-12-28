@@ -16,7 +16,7 @@ client.auth(RDS_PWD,function(){
 });
 
 client.on('ready',function(res){
-    console.log('ready');    
+    console.log('ready');
 });
 
 client.on('connect',function(){
@@ -28,7 +28,7 @@ client.on('connect',function(){
         {
             console.log('Error:'+ err);
             return;
-        }            
+        }
         console.dir(res);
         data=res
     });
@@ -36,6 +36,10 @@ client.on('connect',function(){
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+  res.json(data);
+});
+
+router.post('/first', function(req, res, next) {
   res.json(data);
 });
 

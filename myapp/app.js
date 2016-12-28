@@ -11,6 +11,14 @@ var my = require('./routes/my');
 
 var app = express();
 
+//解决前后端跨域
+var cors = require('cors');
+app.use(cors({
+    origin:['http://localhost:8080'],
+    methods:['GET','POST'],
+    alloweHeaders:['Conten-Type', 'Authorization']
+}));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
