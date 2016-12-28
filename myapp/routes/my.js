@@ -34,12 +34,13 @@ client.on('connect',function(){
     });
 });
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
+/* POST users listing. */
+router.post('/', function(req, res, next) {
   res.json(data);
 });
 
-router.post('/first', function(req, res, next) {
+/* GET users listing. */
+router.get('/', function(req, res, next) {
   res.json(data);
 });
 
