@@ -42,6 +42,10 @@ http://localhost:3000/
 
 [点我去下载atom编辑器](https://atom.io/)
 
+## 项目放置到服务器
+
+只需要把myapp文件夹下index.html和build文件夹放置到服务器的所需文件夹中即可（需在文件夹中放置回执单文件，以便点击下载时下载）
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
