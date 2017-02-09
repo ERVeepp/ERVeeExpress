@@ -14,6 +14,10 @@ npm start
 http://localhost:3000/
 ```
 
+## 项目github地址
+
+[ERVeeVue](https://github.com/ERVeepp/ERVeeVue)
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
