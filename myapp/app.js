@@ -4,12 +4,17 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var history = require('connect-history-api-fallback');
+
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 //var my = require('./routes/my');
 
 var app = express();
+app.use(history({
+    
+}));
 
 //解决前后端跨域
 var cors = require('cors');
