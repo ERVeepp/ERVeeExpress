@@ -20,7 +20,13 @@
 
 # 进入到项目中myapp文件夹下，按住shift键并点击鼠标右键，然后点击在此处打开命令窗口，输入以下命令，安装项目依赖
 
-npm install
+# 此处用yarn作为包管理工具安装，首先全局安装yarn
+
+npm install yarn -g
+
+# 然后安装项目依赖
+
+yarn
 
 # 依赖安装成功后，输入以下命令运行express服务器
 
