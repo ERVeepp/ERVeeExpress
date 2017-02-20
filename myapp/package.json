@@ -18,6 +18,9 @@
     "wilddog": "^2.3.8"
   },
   "devDependencies": {
-    "connect-history-api-fallback": "^1.3.0"
+    "body-parser": "^1.15.2",
+    "connect-history-api-fallback": "^1.3.0",
+    "mongoose": "^4.8.4",
+    "nodemon": "^1.11.0"
   }
 }
