@@ -9,11 +9,11 @@ var history = require('connect-history-api-fallback');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-//var my = require('./routes/my');
+// var my = require('./routes/my');
 
 var app = express();
 app.use(history({
-    
+
 }));
 
 //解决前后端跨域
